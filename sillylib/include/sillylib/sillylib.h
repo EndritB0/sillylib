@@ -1,7 +1,3 @@
 #pragma once 
 
-namespace silly {
-
-	int Version();
-
-}
+#include <sillylib/assert.h>

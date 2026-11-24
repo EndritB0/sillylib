@@ -3,7 +3,8 @@ add_library(sillylib STATIC)
 set(sillylib_SOURCES
     "src/sillylib/pch.h"
     "include/sillylib/sillylib.h"
-    "src/sillylib/sillylib.cpp"
+    "include/sillylib/assert.h"
+    "src/sillylib/assert.cpp"
 )
 
 set(BASE_OUTPUT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/bin")

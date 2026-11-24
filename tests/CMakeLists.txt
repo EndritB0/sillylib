@@ -2,7 +2,7 @@ add_executable(sillylibTests)
 
 set(sillylibTests_SOURCES
     "src/pch.h"
-    "src/SmokeTest.cpp"
+    "src/sillylib/AssertTests.cpp"
 )
 
 set(BASE_OUTPUT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/bin")
